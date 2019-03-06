@@ -2,9 +2,6 @@ title: Scott Bartell
 description: The personal blog of a software engineer, entrepreneur, and human.
 baseurl: ""
 url: "https://scottbartell.com"
-twitter_username: scottbartell
-github_username:  scottbartell
-linkedin_username:  scottsbartell
 
 permalink: pretty
 timezone: US/Denver
@@ -15,3 +12,18 @@ plugins:
   - jekyll-feed
 
 google_analytics: "UA-2112660-3"
+
+twitter_username: ScottBartell
+github_username:  ScottBartell
+linkedin_username:  ScottSBartell
+
+author: scottbartell
+twitter:
+  username: scottbartell
+  card: summary
+social:
+  name: Scott Bartell
+  links:
+    - https://twitter.com/ScottBartell
+    - https://www.linkedin.com/in/ScottSBartell
+    - https://github.com/ScottBartell
