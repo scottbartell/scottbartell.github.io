@@ -6,10 +6,13 @@ date:   2019-03-05
 
 *Goal: Improve the quality of shared links from [Push of Love][push-of-love].*
 
-* [Default iMessage Links](#default-imessage-links)
-* [Enabling iMessage Link Previews](#enabling-imessage-link-previews)
-* [Implementing Link Previews on Push of Love](#implementing-link-previews-on-push-of-love)
-* [Resources](#resources)
+-----
+
+## On This Post
+{: .no_toc}
+
+- 
+  {:toc}
 
 -----
 
