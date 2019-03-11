@@ -10,3 +10,15 @@ hr {
   border: 0;
   border-top: 1px solid #c9c9c9;
 }
+
+.note {
+  font-style: italic;
+  color: #666;
+}
+
+div.footnotes {
+  font-size: 0.8em;
+  ol {
+    padding: 0px 5px 5px 30px;
+  }
+}

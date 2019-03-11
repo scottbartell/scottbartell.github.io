@@ -27,3 +27,7 @@ social:
     - https://twitter.com/ScottBartell
     - https://www.linkedin.com/in/ScottSBartell
     - https://github.com/ScottBartell
+
+relative_links:
+  enabled:     true
+  collections: true
