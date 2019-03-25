@@ -2,6 +2,7 @@
 layout: post
 title:  "Automating Open Graph Images with Severless, AWS Lambda, and Puppeteer"
 date:   2019-03-25
+description: "How to dynamically create images in an AWS Lambda function with the Serverless framework using Node and Puppeteer"
 ---
 
 ## In This Post
