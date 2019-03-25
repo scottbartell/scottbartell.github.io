@@ -75,7 +75,7 @@ That's a great idea... but we create new content for Push of Love every day and 
 
 Continue reading more here:
 - [Automating Open Graph Images: Choosing A Solution][og-images-choosing-a-solution-post]
-- *Coming soon: Automating Open Graph Images Using AWS Lambda*
+- [Automating Open Graph Images: Using Severless, AWS Lambda, and Puppeteer][og-images-with-aws-lambda-post]
 
 
 ## Resources
@@ -91,6 +91,7 @@ Continue reading more here:
 [apple-link-preview-best-practices]: https://developer.apple.com/library/archive/technotes/tn2444/_index.html
 [apple-touch-icon]: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html#//apple_ref/doc/uid/TP40002051-CH3-SW4
 [og-images-choosing-a-solution-post]: 2019-03-11-automating-og-images-choosing-a-solution.md
+[og-images-with-aws-lambda-post]: 2019-03-25-automating-og-images-with-aws-lambda.md
 
 [link-preview-without-image]: {{ site.url }}/assets/imessage-link-preview-default.png
 [link-preview-with-image]: {{ site.url }}/assets/imessage-link-preview-with-image.png

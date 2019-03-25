@@ -145,7 +145,8 @@ Here are the results:
 
 Boom! AWS Lambda FTW!
 
-Stay tuned for the next post about how we implemented this!
+Continue reading more here:
+- [Automating Open Graph Images: Using Severless, AWS Lambda, and Puppeteer][og-images-with-aws-lambda-post]
 
 ---
 
@@ -153,6 +154,7 @@ Stay tuned for the next post about how we implemented this!
 [push-of-love-high-level-architecture]: {{ site.url }}/assets/push-of-love-high-level-architecture.png
 
 [imessage-link-preview-post]: 2019-03-05-implementing-imessage-link-previews.md
+[og-images-with-aws-lambda-post]: 2019-03-25-automating-og-images-with-aws-lambda.md
 [push-of-love]: https://pushoflove.com
 [push-of-love-ios]: https://itunes.apple.com/us/app/push-of-love/id1418962368?mt=8
 [push-of-love-android]: https://play.google.com/store/apps/details?id=com.pushoflove.app
