@@ -26,3 +26,21 @@ div.footnotes {
 div#disqus_thread {
   padding: 50px 0;
 }
+
+.compact-table, .compact-table code {
+  font-size: 11.5px;
+}
+
+.compact-table {
+  th {
+    font-size: 13px;
+  }
+  code {
+    background: none;
+    border: none;
+  }
+  em.na {
+    color: #aaa;
+  }
+}
+
