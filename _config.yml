@@ -4,6 +4,8 @@ baseurl: ""
 url: "https://scottbartell.com"
 comments: true
 
+future: false
+
 permalink: pretty
 timezone: US/Denver
 
