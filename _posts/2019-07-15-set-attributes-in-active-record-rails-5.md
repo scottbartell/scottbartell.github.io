@@ -10,13 +10,13 @@ Some methods have slightly different behavior which can sometimes result in unex
 it’s important to understand their differences.
 
 Over the years I came across [a really helpful cheat sheet outlining the various methods
-available for Rails 4](https://davidverhasselt.com/set-attributes-in-activerecord/) so I figured I'd put together something similar for Rails 5!
+available for Rails 4][rails-4-post] so I figured I'd put together something similar for Rails 5!
 
 Below is a cheat sheet with in-depth information for Rails 5.
 
 # Cheat Sheet
 
-| Method                                    | Uses Default Accessor | Saves to Database | Runs Validations | Runs Callbacks | Updates [`updated_at/updated_on`][timestamps] | Respects Readonly |
+| Method                                    | Uses Default Accessor | Saves to Database | Runs Validations | Runs Callbacks | Updates [`updated_at/on`][timestamps] | Respects Readonly |
 | :---------------------------------------- | :-------------------- | :---------------- | :--------------- | :------------- | :------------------- | :------------- |
 | [`attribute=`][attribute=]                | Yes                   | No                | _n/a_{: .na }    | _n/a_{: .na }  | _n/a_{: .na }        | _n/a_{: .na }  |
 | [`attributes=`][attributes=]              | Yes                   | No                | _n/a_{: .na }    | _n/a_{: .na }  | _n/a_{: .na }        | _n/a_{: .na }  |
@@ -30,7 +30,10 @@ Below is a cheat sheet with in-depth information for Rails 5.
 | [`update_columns`][update_columns]        | Yes                   | Yes               | No               | No             | No                   | Yes            |
 | [`User.update`][User.update]              | Yes                   | Yes               | Yes              | Yes            | Yes                  | Yes            |
 | [`User.update_all`][User.update_all]      | No                    | Yes               | No               | No             | No                   | No             |
-{: .compact-table }
+{: .compact-table.ar-attributes-table }
+
+[rails-4-post]: https://davidverhasselt.com/set-attributes-in-activerecord/
+[rails-6-post]: 2020-01-30-set-attributes-in-active-record-rails-6.md
 
 [attribute=]: https://apidock.com/rails/ActiveRecord/AttributeMethods/Write/attribute=
 [attributes=]: https://api.rubyonrails.org/v5.2/classes/ActiveModel/AttributeAssignment.html#method-i-attributes-3D

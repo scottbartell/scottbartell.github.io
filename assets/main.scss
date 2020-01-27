@@ -21,21 +21,27 @@ div.footnotes {
   ol {
     padding: 0;
   }
+  code {
+    font-size: 0.8em;
+  }
 }
 
 div#disqus_thread {
   padding: 50px 0;
 }
 
-.compact-table, .compact-table code {
+.ar-attributes-table.compact-table {
   font-size: 11.5px;
-}
 
-.compact-table {
   th {
     font-size: 13px;
   }
+  th, td {
+    padding: 8px 10px;
+  }
   code {
+    font-size: 11.5px;
+    padding: 0;
     background: none;
     border: none;
   }
