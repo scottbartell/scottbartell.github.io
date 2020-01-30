@@ -12,7 +12,10 @@ it’s important to understand their differences.
 Over the years I came across [a really helpful cheat sheet outlining the various methods
 available for Rails 4][rails-4-post] so I figured I'd put together something similar for Rails 5!
 
-Below is a cheat sheet with in-depth information for Rails 5.
+**Note:** This article was written for Rails 5. Check out the updated [Rails 6 version][rails-6-post].
+{: .note}
+
+Below is a cheat sheet with in-depth information for Rails 5:
 
 # Cheat Sheet
 
