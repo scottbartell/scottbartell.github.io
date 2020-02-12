@@ -78,22 +78,21 @@ $ heroku logs --dyno web --source heroku --app my-app | grep memory | head -1
 #### Query
 ```
 "source=web."
-| parse "sample#memory_total=*MB" as memory_total
+| parse "sample#memory_rss=*MB" as memory_rss
 | parse "sample#memory_quota=*MB" as memory_quota
 | timeslice 60 buckets
-| max(memory_total) as max_memory_total, max(memory_quota) as max_memory_quota by _timeslice
-| max_memory_total / max_memory_quota * 100 as memory_utilization
+| max(memory_rss) as max_memory_rss, max(memory_quota) as max_memory_quota by _timeslice
+| max_memory_rss / max_memory_quota * 100 as memory_utilization
 | fields _timeslice, memory_utilization
 ```
 
-In this query we use the divide the Memory Total by the Memory quota to get the memory utilization rate. 
-At the end of the query we do a `fields _timeslice, memory_utilization` so that `memory_total` and `memory_quota` don't show up in our graph.
+In this query we divide the Resident Memory (`memory_rss`) by the Memory Quota (`memory_quota`) to get a maximum memory utilization rate for our dynos. 
+At the end of the query we do a `fields _timeslice, memory_utilization` so that `memory_rss` and `memory_quota` don't show up in our graph.
 
 - **Resident Memory (`memory_rss`):** The portion of the dyno's memory (megabytes) held in RAM.
-- **Memory Quota (`memory_quota`):** The resident memory (`memory_rss`) value (megabytes) at which an R14 is triggered.
+- **Memory Quota (`memory_quota`):** The resident memory (`memory_rss`) value (megabytes) at which Heroku triggers an R14 error.
 
 Read more about [the fields Heroku includes for memory consumption][heroku-memory-metrics].
-
 
 ### Heroku Postgres Load
 This graph is designed to help identify if your Postgres database is CPU-bound.
