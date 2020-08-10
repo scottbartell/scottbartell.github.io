@@ -5,7 +5,7 @@ date: 2020-07-06
 description: "How to configure Capybara to disable CSS animations and transitions"
 ---
 
-You can disable CSS animations and transitions globally by setting the [`Capybara.disable_animation` option](capybara-config-docs).
+You can disable CSS animations and transitions globally by setting the [`Capybara.disable_animation` option][capybara-config-docs].
 
 Stick this in your `rails_helper.rb`:
 ```rb
@@ -18,7 +18,7 @@ Instead of a boolean, you can set this option to a CSS selector and it will only
 Capybara.disable_animation = '#with_animation a'
 ```
 
-For a better understanding of how this works take a look at [the tests for `Capybara.disable_animation` in the Capybara source code](capybara-disable-animation-tests).
+For a better understanding of how this works take a look at [the tests for `Capybara.disable_animation` in the Capybara source code][capybara-disable-animation-tests].
 
 
 [capybara-config-docs]: https://www.rubydoc.info/gems/capybara/Capybara/SessionConfig#disable_animation-instance_method
