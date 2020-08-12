@@ -16,7 +16,7 @@ From all that experience, the most effective way I have found to scale a web app
 
 The reason why this is so effective is because it ensures that you spend your time fixing the actual constraint of your system. 
 
-A great way to think about this come from the [Theroy of Constraints][theory-of-constraints]:
+A great way to think about this come from the [Theory of Constraints][theory-of-constraints]:
 > Any improvements made anywhere besides the bottleneck are an illusion. -Gene Kim
 
 So, in my experience, when scaling a Rails app the bottleneck typically falls into one of two large areas:
