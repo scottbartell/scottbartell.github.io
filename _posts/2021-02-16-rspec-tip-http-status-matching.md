@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RSpec Rails Tip: `have_http_status` matcher"
-date: 2021-02-15
+date: 2021-02-16
 description: "Tips on using the have_http_status matcher from rspec-rails"
 ---
 
