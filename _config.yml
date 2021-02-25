@@ -14,8 +14,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
-disqus:
-  shortname: scottbartell
+comment_box:
+  project_id: 5715512235393024-proj
 
 twitter_username: ScottBartell
 github_username:  ScottBartell

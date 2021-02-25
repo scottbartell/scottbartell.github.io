@@ -1,0 +1,12 @@
+{%- if page.comments != false and jekyll.environment == "production" -%}
+  <div class="commentbox"></div>
+
+  <script>
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://unpkg.com/commentbox.io/dist/commentBox.min.js';
+      s.onload = function() { commentBox('{{ site.comment_box.project_id }}') };
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+{%- endif -%}
