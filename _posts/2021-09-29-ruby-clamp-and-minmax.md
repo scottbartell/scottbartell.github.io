@@ -18,7 +18,7 @@ buckets = [1, 2, 3, 4]
 
 Super cool stuff! Let's dig a bit deeper into both `clamp` and `minimax`!
 
-## `Comparable#clamp`
+## Comparable#clamp
 
 Ruby's [`Comparable#clamp`](https://ruby-doc.org/core-3.0.2/Comparable.html#method-i-clamp) "clamps" a value within a provided minimum and maximum value.
 
@@ -48,7 +48,8 @@ As of Ruby 2.7, `clamp` can also take a range:
 => 1
 ```
 
-## `Enumerable#minmax`
+## Enumerable#minmax
+
 There's also [`Enumerable#minmax`](https://ruby-doc.org/core-3.0.2/Enumerable.html#method-i-minmax) which gets both the minimum and maximum value in a given enumerable:
 ```rb
 [1,2,3].minmax
