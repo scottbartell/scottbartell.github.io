@@ -12,7 +12,12 @@ it’s important to understand their differences.
 Over the years I came across [a really helpful cheat sheet outlining the various methods
 available for Rails 4][rails-4-post] so I figured I'd put together something similar for Rails 5!
 
-**Note:** This article was written for Rails 5. Check out the updated [Rails 6 version][rails-6-post].
+**Note:** This article was written for Rails 5. See cheat sheets for other versions here:
+{: .note}
+* [Rails 3][rails-3-post] (external link)
+* [Rails 4][rails-4-post] (external link)
+* [Rails 6][rails-6-post]
+* [Rails 7][rails-7-post]
 {: .note}
 
 Below is a cheat sheet with in-depth information for Rails 5:
@@ -35,8 +40,10 @@ Below is a cheat sheet with in-depth information for Rails 5:
 | [`User.update_all`][User.update_all]      | No                    | Yes               | No               | No             | No                   | No             |
 {: .compact-table.ar-attributes-table }
 
+[rails-3-post]: https://davidverhasselt.com/5-ways-to-set-attributes-in-activerecord-in-rails-3/
 [rails-4-post]: https://davidverhasselt.com/set-attributes-in-activerecord/
 [rails-6-post]: 2020-01-30-set-attributes-in-active-record-rails-6.md
+[rails-7-post]: 2022-04-12-set-attributes-in-active-record-rails-7.md
 
 [attribute=]: https://apidock.com/rails/ActiveRecord/AttributeMethods/Write/attribute=
 [attributes=]: https://api.rubyonrails.org/v5.2/classes/ActiveModel/AttributeAssignment.html#method-i-attributes-3D

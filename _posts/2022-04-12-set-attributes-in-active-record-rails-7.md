@@ -9,10 +9,8 @@ Rails 7 has a rich API that allows you to update your `ActiveRecord` objects in 
 Some methods have slightly different behavior which can sometimes result in unexpected consequences, so 
 it’s important to understand their differences.
 
-**Note:** This article has been updated for Rails 7. Check out similar versions for [Rails 3][rails-3-post] (external link), [Rails 4][rails-4-post] (external link), [Rails 5][rails-5-post], and [Rails 6][rails-6-post].
+**Note:** This cheat sheet is for Rails 7. See cheat sheets for other versions here:
 {: .note}
-
-This cheat sheet is for Rails 7. See cheat sheets for other versions here:
 * [Rails 3][rails-3-post] (external link)
 * [Rails 4][rails-4-post] (external link)
 * [Rails 5][rails-5-post]

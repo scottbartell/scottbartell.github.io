@@ -9,7 +9,12 @@ Rails 6 has a rich API that allows you to update your `ActiveRecord` objects in 
 Some methods have slightly different behavior which can sometimes result in unexpected consequences so 
 it’s important to understand their differences.
 
-**Note:** This article has been updated for Rails 6. Check out similar versions for [Rails 3][rails-3-post] (external link), [Rails 4][rails-4-post] (external link) and [Rails 5][rails-5-post].
+**Note:** This article was written for Rails 6. See cheat sheets for other versions here:
+{: .note}
+* [Rails 3][rails-3-post] (external link)
+* [Rails 4][rails-4-post] (external link)
+* [Rails 5][rails-5-post]
+* [Rails 7][rails-7-post]
 {: .note}
 
 Here's a cheat sheet highlighting the differences between all the methods available for setting attributes in Rails 6:
@@ -41,6 +46,7 @@ Here's a cheat sheet highlighting the differences between all the methods availa
 [rails-3-post]: https://davidverhasselt.com/5-ways-to-set-attributes-in-activerecord-in-rails-3/
 [rails-4-post]: https://davidverhasselt.com/set-attributes-in-activerecord/
 [rails-5-post]: 2019-07-15-set-attributes-in-active-record-rails-5.md
+[rails-7-post]: 2022-04-12-set-attributes-in-active-record-rails-7.md
 
 [attribute=]: https://apidock.com/rails/ActiveRecord/AttributeMethods/Write/attribute=
 [attributes=]: https://api.rubyonrails.org/v6.0/classes/ActiveModel/AttributeAssignment.html#method-i-attributes-3D
